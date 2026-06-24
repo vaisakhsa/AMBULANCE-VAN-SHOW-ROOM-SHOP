@@ -998,3 +998,38 @@ ul.loca li {
 }
 /** End footer & contact **/
 /*--------------------------------------------------------------------- End page css ---------------------------------------------------------------------*/
+
+
+/* Added responsive fixes */
+@media (max-width: 992px) {
+    .text-bg h1{font-size:45px;line-height:55px;}
+    .text-bg span{font-size:30px;}
+    .contact{padding:60px 20px;}
+    .about .about-box{width:100%;max-width:100%;float:none;padding:20px;}
+    .margin_top{margin-top:20px;}
+    .clients_red{min-height:auto;background-size:cover;}
+}
+@media (max-width: 768px) {
+    .header{padding:10px;}
+    .logo,.menu-area{float:none;width:100%;text-align:center;}
+    .text-bg{text-align:center;}
+    .text-bg h1{font-size:30px;line-height:40px;padding-bottom:20px;}
+    .text-bg span{font-size:22px;line-height:30px;}
+    .text-bg p{font-size:16px;line-height:25px;padding-bottom:20px;}
+    .about{margin:20px 10px;}
+    .about .about-box h2{font-size:28px;padding:10px 15px;}
+    .titlepage h2{font-size:30px;line-height:40px;}
+    .contact{padding:30px 15px;}
+    .contact .titlepage h3{width:100%;font-size:25px;}
+    .testomonial_img figure img{width:100%;}
+    .testimonial_cont{padding:20px;}
+    .testimonial_cont p{padding-left:0;font-size:16px;}
+    .AMBULANCE_img span,.margin_top span{position:static;margin:10px auto;display:inline-flex;}
+}
+@media (max-width: 480px){
+    .text-bg h1{font-size:24px;line-height:32px;}
+    .text-bg span{font-size:18px;}
+    .titlepage h2{font-size:24px;}
+    .about .about-box p,.AMBULANCE_shop p{font-size:15px;line-height:24px;}
+    .contact{padding:20px 10px;}
+}
